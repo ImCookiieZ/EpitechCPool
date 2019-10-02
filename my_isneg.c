@@ -5,7 +5,7 @@
 ** 
 */
 
-int my_insef(int n)
+int my_inseg(int n)
 {
     int input = n;
     
