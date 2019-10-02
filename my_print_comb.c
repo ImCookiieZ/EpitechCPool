@@ -15,8 +15,10 @@ int my_print_comb(void)
         my_putchar(first_digit);
         my_putchar(second_digit);
         my_putchar(third_digit);
-        my_putchar(44);
-        my_putchar(32);
+        if (first_digit != 55){            
+            my_putchar(44);
+            my_putchar(32);
+        }
         if (third_digit == 57){
             if (second_digit!=56){
                 second_digit += 1;
@@ -36,9 +38,5 @@ int my_print_comb(void)
             third_digit += 1;
         }
     }
-}
-
-int main(void)
-{
-    return (my_print_comb());
+    
 }
