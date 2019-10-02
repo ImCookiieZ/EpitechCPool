@@ -32,6 +32,9 @@ int my_print_comb(void)
                 }
             }                   
         }
+        else{
+            third_digit += 1;
+        }
     }
 }
 
