@@ -9,12 +9,12 @@ int my_insef(int n)
 {
     int input = n;
     
-    if (n < 0) {
-        my_putchar('N');
+    if (n < 48) {
+        my_putchar(78);
     }
     
     else {
-        my_putchar('P');
+        my_putchar(80);
     }
     return (0);
 }

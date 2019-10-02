@@ -7,9 +7,9 @@
 
 int my_print_digits(void)
 {
-    char my_digit='0';
+    char my_digit = 48;
 
-    while (my_digit <= '9') { 
+    while (my_digit <= 57) { 
         my_putchar(my_digit);
         my_digit++;
     }
