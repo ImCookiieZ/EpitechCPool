@@ -5,7 +5,7 @@
 ** 
 */
 
-int my_inseg(int n)
+int my_isneg(int n)
 {
     int input = n;
     
