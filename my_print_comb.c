@@ -28,6 +28,7 @@ int my_print_comb(void)
                 if (first_digit != 55){                            
                     first_digit += 1;
                     second_digit = first_digit +1;
+                    third_digit = second_digit +1;
                 }
                 else{
                     return (0);
