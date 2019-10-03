@@ -32,6 +32,9 @@ int whileloop (int first_digit, int second_digit, int third_digit, int forth_dig
                     my_putchar(44);
                     my_putchar(32);
                 }
+                else{
+                    my_putchar('\n');
+                }
             }
         }
         if (forth_digit == 57){
