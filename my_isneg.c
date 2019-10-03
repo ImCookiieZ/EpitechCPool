@@ -7,9 +7,7 @@
 
 int my_isneg(int n)
 {
-    int input = n;
-    
-    if (n < 48) {
+    if (n < 0) {
         my_putchar(78);
     }
     
