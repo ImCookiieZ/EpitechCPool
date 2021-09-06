@@ -1,0 +1,2 @@
+ine buchstaben in große #!/bin/bash
+tr [:lower:] [:upper:] | tr 'LONEYTUSARFPDHIKZBCGJMQVWX' 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' | tr [:upper:] [:lower:]

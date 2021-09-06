@@ -1,0 +1,2 @@
+#!/bin/bash
+tr ['LONEYTUSARFPDHIKZBCGJMQVWXloneytusarfpdhikzbcgjmqvwx'] ['A-Za-z']

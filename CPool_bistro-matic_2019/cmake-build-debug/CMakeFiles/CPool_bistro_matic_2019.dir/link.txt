@@ -1,0 +1,1 @@
+/bin/gcc -g   CMakeFiles/CPool_bistro_matic_2019.dir/main.c.o  -o CPool_bistro_matic_2019 
